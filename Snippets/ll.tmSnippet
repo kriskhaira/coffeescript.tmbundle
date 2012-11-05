@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>###
-$1
-===============================================================================
-###
-$0</string>
+  <string>console.log "LOGGING ${1}"${0}
+console.log ${1}</string>
   <key>name</key>
-  <string>Subheader</string>
+  <string>If</string>
   <key>scope</key>
   <string>source.coffee</string>
   <key>tabTrigger</key>
-  <string>/1</string>
+  <string>ll</string>
+  <key>uuid</key>
+  <string>F4FDFB3A-71EF-48A4-93F4-178B949546B1</string>
 </dict>
 </plist>
